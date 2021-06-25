@@ -1,0 +1,144 @@
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  height: 600px;
+  max-width: 700px;
+  background-color: gray;
+}
+/* 43d2651cea469c45f575df  1:248621761678:web:43d2651cea469c45f575df*/
+body {
+  align-items: center;
+  margin-left: 300px;
+  background-image: url("./back.jpg");
+
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+:root {
+  --size: 46px;
+}
+
+#run {
+  background-color: rgb(7, 247, 7);
+  color: aliceblue;
+  border: none;
+}
+.white {
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-repeat: no-repeat;
+  /* background-size: 100px 75px; */
+  margin: 1px;
+  padding: 10px 10px 10px 10px;
+  background-color: cornsilk;
+
+  border: 2px black;
+  transition: 1s;
+  padding: 3vh;
+  max-height: auto;
+  margin: 2px;
+  width: var(--size);
+}
+.black {
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-repeat: no-repeat;
+  /* background-size: 100px 75px; */
+  padding: 10px 10px 10px 10px;
+  background-color: black;
+
+  border: 2px black;
+  transition: 1s;
+  padding: 3vh;
+  max-height: auto;
+  margin: 2px;
+  width: var(--size);
+}
+.red {
+  background-color: red;
+}
+.orange {
+  background-color: orange;
+}
+.yellow {
+  background-color: yellow;
+}
+.green {
+  background-color: chartreuse;
+}
+
+.pink {
+  background-color: rgb(255, 0, 149);
+}
+.purple {
+  background-color: rgb(111, 0, 255);
+}
+
+.darkgreen {
+  background-color: rgb(3, 129, 14);
+}
+.darkblue {
+  background-color: rgb(17, 0, 255);
+}
+.blue {
+  background-color: skyblue;
+}
+
+#btns {
+  display: grid;
+  grid-row: row;
+  position: absolute;
+  left: 80%;
+  top: 40%;
+}
+#details {
+  position: absolute;
+  top: 30%;
+  left: 0;
+}
+
+#disclaimer {
+  max-width: 300px;
+  color: white;
+}
+#details > ul {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 10px;
+}
+#details > ul > li {
+  margin-top: 10px;
+  /* color: white; */
+}
+#run,
+#redirect {
+  border: none;
+
+  margin: 10px 5px 10px 5px;
+  padding: 10px 5px 10px 5px;
+  border-radius: 10px;
+  color: white;
+  background-color: BLACK;
+}
+
+#run:disabled {
+  background-color: red;
+}
+
+#hint {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+  padding: 0px 3px 0px 0px;
+  margin-top: 100%;
+}
